@@ -15,7 +15,7 @@ Clean and build and run the application.
 
 Using Postman
 
-Run https://localhost:44363/api/users/1 using Get
+Run https://localhost:5001/api/users/1 using Get
 
 Assumptions and Considerations
 
