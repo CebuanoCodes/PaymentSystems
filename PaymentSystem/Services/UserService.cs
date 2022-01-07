@@ -15,17 +15,15 @@ namespace PaymentSystem.Services
             this._userRepository = userRepository;
         }
 
-        
+        //method that will invoke the GetWithPaymentsByIdAsync from the UserRepository
         public async Task<User> GetUserById(int id)
         {
             return await _userRepository.GetWithPaymentsByIdAsync(id);
         }
-
+        //method that wil invoke the CheckValidUserKey from the UserRepository
         public bool CheckValidUserKey(string reqkey)
         {
             return _userRepository.CheckValidUserKey(reqkey);
         }
-
-
     }
 }
