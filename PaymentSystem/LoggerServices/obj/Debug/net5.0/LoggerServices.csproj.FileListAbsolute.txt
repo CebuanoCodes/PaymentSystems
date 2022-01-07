@@ -1,0 +1,12 @@
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\LoggerServices.csproj.AssemblyReference.cache
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\LoggerServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\LoggerServices.AssemblyInfoInputs.cache
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\LoggerServices.AssemblyInfo.cs
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\LoggerServices.csproj.CoreCompileInputs.cache
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\bin\Debug\net5.0\LoggerServices.deps.json
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\bin\Debug\net5.0\LoggerServices.dll
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\bin\Debug\net5.0\ref\LoggerServices.dll
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\bin\Debug\net5.0\LoggerServices.pdb
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\LoggerServices.dll
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\ref\LoggerServices.dll
+C:\Users\rhoyzyl.f.aquino\Downloads\PaymentSystems-main\PaymentSystems-main\PaymentSystem\LoggerServices\obj\Debug\net5.0\LoggerServices.pdb
