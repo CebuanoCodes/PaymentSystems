@@ -16,6 +16,7 @@ Clean and build and run the application.
 Using Postman
 
 Run https://localhost:5001/api/users/1 using Get
+-Take note that you have to add "user-key" in the headers key and "28236d8ec201df516d0f6472d516d72d" in the value
 
 Assumptions and Considerations
 
