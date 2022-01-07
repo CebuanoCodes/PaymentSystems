@@ -53,11 +53,11 @@ namespace PaymentSystem.Api
                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
                    };
                });
-            var mapperConfig = new MapperConfiguration(cfg =>
-            {
-                cfg.AddProfile(new MappingProfile());
-            });
-            services.AddSingleton(mapperConfig.CreateMapper());
+            //var mapperConfig = new MapperConfiguration(cfg =>
+            //{
+            //    cfg.AddProfile(new MappingProfile());
+           // });
+           // services.AddSingleton(mapperConfig.CreateMapper());
 
             services.AddDbContext<UserDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("UserDB")));
             
