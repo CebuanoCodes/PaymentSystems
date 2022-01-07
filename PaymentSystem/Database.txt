@@ -1,0 +1,16 @@
+CREATE TABLE [dbo].[Users] (
+    [Id]             INT   IDENTITY (1, 1) NOT NULL,
+    [AccountBalance] MONEY NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Payments] (
+    [Id]     INT            IDENTITY (1, 1) NOT NULL,
+    [Amount] MONEY          NOT NULL,
+    [Status] NVARCHAR (100) NOT NULL,
+    [Date]   DATETIME       NOT NULL,
+    [UserId] INT            NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
+);
+
