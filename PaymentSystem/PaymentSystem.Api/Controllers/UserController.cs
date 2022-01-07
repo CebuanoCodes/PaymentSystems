@@ -1,6 +1,5 @@
 using System.Threading.Tasks;
 using AutoMapper;
-using Core.DTO;
 using LoggerService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
