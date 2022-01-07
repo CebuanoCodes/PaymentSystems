@@ -1,4 +1,3 @@
-﻿using Core;
 using LoggerService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
