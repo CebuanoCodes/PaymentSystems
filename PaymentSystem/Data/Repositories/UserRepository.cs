@@ -9,7 +9,7 @@ namespace PaymentSystem.Data.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        
+        //injecting the UserDB Context
         private readonly UserDbContext _context;
 
         public UserRepository(UserDbContext context)
@@ -17,14 +17,14 @@ namespace PaymentSystem.Data.Repositories
             _context = context;
         }
 
+        //method that will retrieve data from the database
         public Task<User> GetWithPaymentsByIdAsync(int id)
         {
             return _context.Users
-                .Include(a => a.Payments)
+                .Include(a => a.Payments)//.OrderByDescending(x => x.Date)
                 .SingleOrDefaultAsync(a => a.Id == id);
-            //.OrderBy(x => x.DateQ
         }
-
+        //Method that will check if the user-key value is true/valid
         public bool CheckValidUserKey(string reqkey)
         {
             var userkeyList = new List<string>
