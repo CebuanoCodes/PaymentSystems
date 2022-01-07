@@ -38,7 +38,7 @@ namespace PaymentSystem.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.ConfigureLoggerService();
-
+            services.ConfigureCors();
             services.AddControllers();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                .AddJwtBearer(options => {
